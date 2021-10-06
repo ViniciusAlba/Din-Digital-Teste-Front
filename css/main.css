@@ -1,0 +1,12 @@
+body {
+    padding: 30px;
+}
+
+.inline-list li {
+    display: inline;
+}
+
+.iconsAndSearch, .logoAndMenu {
+    display: flex;
+    justify-content: space-between;
+}
