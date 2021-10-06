@@ -2,6 +2,26 @@ body {
     padding: 30px;
 }
 
+.icons i {
+    padding: 10px;
+    border-radius: 50%;
+    
+    color: #FFF;
+    background-color: #000;
+
+    text-underline-position: unset;
+
+    margin: 0 5px 0 5px; 
+}
+
+.icons a {
+    text-decoration: none; 
+}
+
+.icons i:hover {
+    background-color: #FF8800;
+}
+
 .inline-list li {
     display: inline;
 }
@@ -9,4 +29,85 @@ body {
 .iconsAndSearch, .logoAndMenu {
     display: flex;
     justify-content: space-between;
+}
+
+#search {
+    height: 30px;
+    width: 250px;
+
+    padding-left: 10px;
+
+    color: #ccc;
+    background-color: #333333;
+    
+    border: 1px solid #333333;
+    border-radius: 10px;
+
+    outline: none;
+}
+
+#searchSubmit {
+    height: 32px;
+
+    color: #FFF;
+    background-color: #43B0BF;
+
+    border: 1px solid #43B0BF;
+    border-radius: 10px;
+
+    outline: none;
+
+    text-transform: uppercase;
+}
+
+#searchSubmit:hover {
+    cursor: pointer;
+}
+
+.logoAndMenu {
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.logo a {
+    color: #000;
+    text-decoration: none;
+}
+
+.logo span {
+    font-size: 40pt;
+}
+
+.logo h1 {
+    font-size: 30pt;
+    text-transform: uppercase;
+}
+
+.logo p {
+    font-size: 15pt;
+    color: #BBBBBB;
+}
+
+.menu {
+    margin-top: 60px;
+}
+
+.menu a {
+    font-weight: 700;
+
+    text-transform: uppercase;
+    text-decoration: none;
+    
+    color: #BBBBBB;
+
+    margin: 0px 20px 0px 20px;
+}
+
+.menu a:focus {
+    text-transform: uppercase;
+    text-decoration: none;
+    
+    color: #43B0BF;
+
+    margin: 0px 20px 0px 20px;
 }
