@@ -227,6 +227,8 @@
 
     margin: 50px auto 50px auto;
 
+    color: #BBBBBB;
+
     font-size: 21pt;
     font-style: italic;
 }
@@ -280,4 +282,87 @@
     line-height: 20px;
 
     margin-top: 8px;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+
+    margin-top: 50px;
+    padding: 20px; 
+
+    background-color: #191919;
+}
+
+footer a {
+    text-decoration: none;
+
+    color: #43B0BF;
+}
+
+footer h3 {
+    color: #FFF;
+}
+
+footer p, h4, li {
+    color: #BBBBBB;
+}
+
+.contact, .blog {
+    line-height: 20px;
+}
+
+.links {
+    line-height: 30px;
+}
+
+.contact, .links, .blog, .newsletter {
+    width: 25%;
+}
+
+.contact h3, .links h3, .blog h3, .newsletter h3 {
+    font-size: 15pt;
+
+    margin-bottom: 20px;
+}
+
+.blog p {
+    width: 280px;
+}
+
+.blog a {
+    margin-left: 150px;
+
+    line-height: 40px;
+}
+
+#name, #email {
+    height: 30px;
+    width: 250px;
+
+    color: #BBBBBB;
+    background-color: #2C2C2C;
+
+    border: 1px solid #2C2C2C;
+    border-radius: 5px;
+
+    outline: none;
+
+    padding-left: 10px;
+    margin: 5px 0 5px 0;
+}
+
+#submit {
+    width: 80px;
+
+    text-transform: uppercase;
+
+    color: #FFF;
+
+    background-color: #43B0BF;
+
+    border: 1px solid #43B0BF;
+    border-radius: 5px;
+
+    padding: 10px;
 }
