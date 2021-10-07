@@ -111,3 +111,14 @@ body {
 
     margin: 0px 20px 0px 20px;
 }
+
+.threeArticles {
+    display: flex;
+}
+
+.md-image {
+    height: 160px;
+    width: 300px;
+
+    background-color: #353535;
+}
