@@ -50,7 +50,7 @@
 }
 
 #searchSubmit {
-    height: 32px;
+    height: 34px;
 
     color: #FFF;
     background-color: #43B0BF;
@@ -106,20 +106,21 @@
     margin: 0px 20px 0px 20px;
 }
 
-.menu a:focus {
-    text-transform: uppercase;
-    text-decoration: none;
-    
-    color: #43B0BF;
+.menu a:hover {
+    color: #43b1bf62;
+}
 
-    margin: 0px 20px 0px 20px;
+.menu a:focus{
+    color: #43B0BF;
 }
 
 .mainSection {
     display: flex;
     justify-content: center;
-
+    align-items: center;
     border-top: 1px solid #BBBBBB;
+    padding-top: 50px;
+    margin-bottom: 50px;
 }
 
 .monitor, .mainTitleAndParagraph {
@@ -128,12 +129,8 @@
 }
 
 .monitor img {
-    height: 100%;
-    width: 100%;
-}
-
-.mainTitleAndParagraph {
-    margin-top: 200px;
+    max-height: 800px;
+    max-width: 800px;
 }
 
 .mainTitleAndParagraph h2 {
@@ -168,20 +165,67 @@
 }
 
 .threeArticles {
+    border-top: 1px solid #BBBBBB;
+    border-bottom: 1px solid #BBBBBB;
+
+    padding: 50px 0 50px 0;
+
     display: flex;
     justify-content: space-between;
+    align-items: center;
 
-    border-top: 1px solid #BBBBBB;
 }
 
 .article1, .article2, .article3 {
-    height: 160px;
     width: 300px;
 }
 
+.article1 h3, .article2 h3, .article3 h3 {
+    text-transform: uppercase;
+
+    margin: 20px 0 20px 0;
+}
+
+.article1 p, .article2 p, .article3 p {
+    color: #BBBBBB;
+    margin-bottom: 20px;
+}
+
+.article1 a, .article2 a, .article3 a {
+    color: #FFF;
+    background-color: #43B0BF;
+
+    border: 1px solid #43B0BF;
+    border-radius: 10px;
+
+    text-decoration: none;
+    text-transform: uppercase;
+
+    padding: 5px; 
+}
+
 .md-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
     height: 160px;
     width: 300px;
 
     background-color: #353535;
+    color: #FFF;
+}
+
+.phrase {
+    width: 55%;
+
+    margin: 50px auto 50px auto;
+
+    font-size: 21pt;
+    font-style: italic;
+}
+
+.sixArticles {
+    display: flex;
+    justify-content: space-between;
 }
