@@ -1,5 +1,8 @@
-body {
-    padding: 30px;
+.container {
+    display: flex;
+    flex-direction: column;
+    margin: 50px auto 50px auto;
+    width: 80vw;
 }
 
 .icons i {
@@ -112,8 +115,68 @@ body {
     margin: 0px 20px 0px 20px;
 }
 
+.mainSection {
+    display: flex;
+    justify-content: center;
+
+    border-top: 1px solid #BBBBBB;
+}
+
+.monitor, .mainTitleAndParagraph {
+    height: 50%;
+    width: 50%;
+}
+
+.monitor img {
+    height: 100%;
+    width: 100%;
+}
+
+.mainTitleAndParagraph {
+    margin-top: 200px;
+}
+
+.mainTitleAndParagraph h2 {
+    font-size: 35pt;
+    text-transform: uppercase;
+
+    margin: 50px 0 50px 0;
+}
+
+.mainTitleAndParagraph p {
+    color:#BBBBBB;
+
+    font-size: 18px;
+
+    margin-bottom: 30px;
+
+    width: 65%;
+    line-height: 20px;
+}
+
+.mainTitleAndParagraph a {
+    text-decoration: none;
+    text-transform: uppercase;
+
+    padding: 10px;
+
+    border: 1px solid #43B0BF;
+    border-radius: 10px;
+
+    color: #FFF;
+    background-color: #43B0BF;
+}
+
 .threeArticles {
     display: flex;
+    justify-content: space-between;
+
+    border-top: 1px solid #BBBBBB;
+}
+
+.article1, .article2, .article3 {
+    height: 160px;
+    width: 300px;
 }
 
 .md-image {
