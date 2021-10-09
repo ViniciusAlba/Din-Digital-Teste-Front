@@ -436,3 +436,42 @@
     }
 
 }
+
+@media only screen and (min-width: 1800px) {
+
+    .menu {
+        width: 100%;
+        text-align: end;
+    }
+
+    .menu a {
+        font-size: 10pt;
+        margin: 20px;
+    }
+
+    .monitor img {
+        max-height: 800px;
+        max-width: 800px;
+    }
+    
+    .mainTitleAndParagraph p {
+        font-size: 20px;
+        line-height: 22px;
+    }
+
+    .mainTitleAndParagraph a {
+        padding: 12px;
+    }
+
+    .threeArticles {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .article1 a, .article2 a, .article3 a {
+        padding: 8px; 
+    }
+
+}
