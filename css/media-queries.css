@@ -204,20 +204,235 @@
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
 
+    .iconsAndSearch {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
 
+    .logoAndMenu {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    #search {
+        width: 200px;
+    }
+
+    .menu {
+        width: 50%;
+        text-align: center;
+    }
+
+    .menu a {
+        font-size: 10pt;
+        margin-right: 30px;
+    }
+
+    .monitor img {
+        max-height: 350px;
+        max-width: 350px;
+    }
+
+    .mainTitleAndParagraph h2 {
+        font-size: 25pt;
+    }
+    
+    .mainTitleAndParagraph p {
+        font-size: 16px;
+    }
+
+    .threeArticles {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .article1, .article2, .article3 {
+        margin-bottom: 30px;
+    }
+
+    .article1 h3, .article2 h3, .article3 h3 {
+        font-size: 15pt;
+    }
+
+    .article1 p, .article2 p, .article3 p {
+        font-size: 18px;
+    }
+    
+    .contact, .links, .blog, .newsletter {
+        width: 100%;
+
+        margin-bottom: 30px;
+    }
 
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
-@media only screen and (min-width: 992px) {
+@media only screen and (min-width: 1024px) {
 
+    .container {
+        display: flex;
+        flex-direction: column;
+    
+        margin: 50px auto 0 auto;
+    
+        width: 80vw;
+        height: 100vh;
+    }
 
+    .iconsAndSearch {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    #search {
+        width: 250px;
+    }
+
+    .logoAndMenu {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .menu {
+        width: 60%;
+        text-align: center;
+    }
+
+    .menu a {
+        font-size: 10pt;
+        margin: 10px;
+    }
+
+    .monitor img {
+        max-height: 450px;
+        max-width: 450px;
+    }
+    
+    .mainTitleAndParagraph p {
+        font-size: 20px;
+    }
+
+    .threeArticles {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .phrase {
+        text-align: center;
+
+        width: 90%;
+    
+        font-size: 21pt;
+        font-style: italic;
+    }
+    
+    footer {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    
+        margin-top: 50px;
+        padding: 20px; 
+    
+        background-color: #191919;
+    }
+    
+    footer a {
+        text-decoration: none;
+    
+        color: #43B0BF;
+    }
+    
+    footer h3 {
+        color: #FFF;
+    }
+    
+    footer p, h4, li {
+        color: #BBBBBB;
+    }
+    
+    .contact, .blog {
+        line-height: 20px;
+    }
+    
+    .links {
+        line-height: 30px;
+    }
+    
+    .contact, .links, .blog, .newsletter {
+        width: 50%;
+    }
+    
+    .contact h3, .links h3, .blog h3, .newsletter h3 {
+        font-size: 15pt;
+    
+        margin-bottom: 20px;
+    }
+    
+    .blog p {
+        width: 150px;
+    }
+    
+    .blog a {
+        margin-left: 150px;
+    
+        line-height: 40px;
+    }
+    
+    #name, #email {
+        width: 200px;
+    }
 
 }
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
 
+    .menu {
+        width: 100%;
+        text-align: end;
+    }
 
+    .menu a {
+        font-size: 10pt;
+        margin: 20px;
+    }
+
+    .monitor img {
+        max-height: 500px;
+        max-width: 500px;
+    }
+    
+    .mainTitleAndParagraph p {
+        font-size: 20px;
+        line-height: 22px;
+    }
+
+    .mainTitleAndParagraph a {
+        padding: 12px;
+    }
+
+    .threeArticles {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .article1 a, .article2 a, .article3 a {
+        padding: 8px; 
+    }
 
 }
